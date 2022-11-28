@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "start": "node lib"
+    "start": "node lib",
+    "start:prod": "npm start > stdout.log 2> stderr.log # count"
   },
   "dependencies": {
     "express": "^4.18.2"
